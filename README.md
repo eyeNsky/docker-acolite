@@ -26,4 +26,4 @@ Put the settings in to a file (settings.txt) and run:
 
 The output should look something like this:
 
-![Alt text](/S2A_MSI_2017_05_26_10_50_31_T31UES_rgb_rhos.jpg?raw=true "Optional Title")
+![Alt text](/S2A_MSI_2017_05_26_10_50_31_T31UES_rgb_rhos.jpg?raw=true "acolite output")
