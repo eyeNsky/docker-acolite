@@ -17,3 +17,7 @@ Settings file for demo data:
 output=/mnt/acolite
 limit=51.3,3.0,51.4,3.25
 l2w_parameters=rhos_*</pre></code>
+
+Put the settings in to a file (settings.txt) and run:
+
+<pre><code>acolite --cli --settings=settings.txt</pre></code>
