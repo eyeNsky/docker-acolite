@@ -7,8 +7,9 @@ Build the docker container with:
 docker build -t acolite-<version> .
 
 Run:
+<pre><code>
 docker run -it -v /mnt:/mnt acolite-<version>
-
+</pre></code>
 # get example data used in manual
 gsutil -m cp -r gs://gcp-public-data-sentinel-2/tiles/31/U/ES/S2A_MSIL1C_20170526T105031_N0205_R051_T31UES_20170526T105518.SAFE/ ./
 
