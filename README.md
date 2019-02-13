@@ -4,7 +4,7 @@ Dockerfile to set up acolite and gsutil on an Ubuntu 18.04 image.
 http://odnature.naturalsciences.be/remsem/software-and-data/acolite
 
 Build the docker container with:
-docker build -t acolite-<version> .
+<pre><code>docker build -t acolite_version . </pre></code>
 
 Run:
 <pre><code>docker run -it -v /mnt:/mnt acolite_version</pre></code>
