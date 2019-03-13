@@ -6,10 +6,18 @@ http://odnature.naturalsciences.be/remsem/software-and-data/acolite
 Build the docker container with:
 <pre><code>docker build -t acolite_version . </pre></code>
 
+The build process puts gsutil and acolite in /usr/local/bin so the commands don't need the full path to the binary files.
+
 Run:
 <pre><code>docker run -it -v /mnt:/mnt acolite_version</pre></code>
 
-The build process puts gsutil and acolite in /usr/local/bin so the commands don't need the full path to the binary files.
+This will cross mount the local /mnt directory with the container /mnt directory.
+
+Make the working directory and cd to it:
+
+<pre><code>mkdir /mnt/acolite
+cd /mnt/acolite
+</pre></code>
 
 Get the example data used in manual:
 <pre><code>gsutil -m cp -r gs://gcp-public-data-sentinel-2/tiles/31/U/ES/S2A_MSIL1C_20170526T105031_N0205_R051_T31UES_20170526T105518.SAFE/ ./ </pre></code>
