@@ -8,7 +8,7 @@ Build the docker container with:
 
 The build process puts gsutil and acolite in /usr/local/bin so the commands don't need the full path to the binary files.
 
-If you get <font color="red"><b>ERROR 404: Not Found.</b></font>
+If you get <b>"ERROR 404: Not Found."</b> the acolite version has changed. Visit their website to determine the new version and update the Dockerfile. Also, file an issue and I will update.
 
 Run:
 <pre><code>docker run -it -v /mnt:/mnt acolite_version</pre></code>
