@@ -13,7 +13,7 @@ If you get <b>"ERROR 404: Not Found."</b> the acolite version has changed. Visit
 Run:
 <pre><code>docker run -it -v /mnt:/mnt acolite_version</pre></code>
 
-This will cross mount the local /mnt directory with the container /mnt directory. Windows users will need to substitute the local directory they shared with Docker for the fisrt /mnt. Similar to:
+This will cross mount the local /mnt directory with the container /mnt directory. Windows users will need to substitute the local directory they shared with Docker for the first /mnt. Similar to:
 
 <pre><code>docker run -it -v C:\path\to\share:/mnt acolite_version</pre></code>
 
